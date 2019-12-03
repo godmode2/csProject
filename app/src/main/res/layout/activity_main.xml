@@ -27,133 +27,133 @@
                 android:text="Types and Variables" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/conditional"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Conditional Expressions" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/Arrays"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Arrays and Loops" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/functions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Functions" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/compilation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Compilation" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/objects"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Intoduction to Objects" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/constructors"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Constructors and Visibillity" />
 
             <Button
-                android:id="@+id/button19"
+                android:id="@+id/getters"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Getters and Setters" />
 
             <Button
-                android:id="@+id/button18"
+                android:id="@+id/inheritance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Inheritence" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/polymorphism"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Polymorphism and References" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/interfaces"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Interfaces" />
 
             <Button
-                android:id="@+id/button17"
+                android:id="@+id/introalgorithm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Introduction to Algorithms" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/runtime"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Algorithm Runtime" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/lists"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Lists" />
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/linked"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Linked Lists" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/trees"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Trees and Recursion" />
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/insertion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Insertion and Merge Sort" />
 
             <Button
-                android:id="@+id/button14"
+                android:id="@+id/merge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Merge Sort" />
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/quick"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Quicksort" />
 
             <Button
-                android:id="@+id/button20"
+                android:id="@+id/internet"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Internet Introduction" />
 
             <Button
-                android:id="@+id/button21"
+                android:id="@+id/web"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Web and Web APIs" />
 
             <Button
-                android:id="@+id/button22"
+                android:id="@+id/exceptions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Exceptions and Errors" />
 
             <Button
-                android:id="@+id/button23"
+                android:id="@+id/hash"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Hashing and Maps" />
