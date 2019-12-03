@@ -20,14 +20,59 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button types = findViewById(R.id.types);
+        Button cond = findViewById(R.id.conditional);
+        Button array = findViewById(R.id.Arrays);
+        Button func = findViewById(R.id.functions);
+        Button comp = findViewById(R.id.compilation);
+        Button intro = findViewById(R.id.objects);
+        Button constr = findViewById(R.id.constructors);
+        Button get = findViewById(R.id.getters);
+        Button inher = findViewById(R.id.inheritance);
+        Button poly = findViewById(R.id.polymorphism);
+        Button inter = findViewById(R.id.interfaces);
+        Button introalg = findViewById(R.id.introalgorithm);
+        Button algrn = findViewById(R.id.runtime);
+        Button lists = findViewById(R.id.lists);
+        Button linked = findViewById(R.id.linked);
+        Button trees = findViewById(R.id.trees);
+        Button insertion = findViewById(R.id.insertion);
+        Button merge = findViewById(R.id.merge);
+        Button quick = findViewById(R.id.quick);
+        Button internet = findViewById(R.id.internet);
+        Button web = findViewById(R.id.web);
+        Button exceptions = findViewById(R.id.exceptions);
+        Button hash = findViewById(R.id.hash);
+
         types.setOnClickListener(this);
+        cond.setOnClickListener(this);
+        array.setOnClickListener(this);
+        func.setOnClickListener(this);
+        comp.setOnClickListener(this);
+        intro.setOnClickListener(this);
+        constr.setOnClickListener(this);
+        get.setOnClickListener(this);
+        inher.setOnClickListener(this);
+        poly.setOnClickListener(this);
+        introalg.setOnClickListener(this);
+        inter.setOnClickListener(this);
+        algrn.setOnClickListener(this);
+        lists.setOnClickListener(this);
+        linked.setOnClickListener(this);
+        trees.setOnClickListener(this);
+        insertion.setOnClickListener(this);
+        merge.setOnClickListener(this);
+        quick.setOnClickListener(this);
+        internet.setOnClickListener(this);
+        web.setOnClickListener(this);
+        exceptions.setOnClickListener(this);
+        hash.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.types:
-                Toast.makeText(this, "Types clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Types clicked", Toast.LENGTH_LONG).show();
                 break;
             case R.id.conditional:
                 Toast.makeText(this, "Conditionals clicked", Toast.LENGTH_SHORT).show();
