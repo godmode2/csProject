@@ -6,17 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.youtube.player.YouTubeBaseActivity;
-import com.google.android.youtube.player.YouTubeInitializationResult;
-import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayerView;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -24,8 +14,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button types = findViewById(R.id.types);
-        Button cond = findViewById(R.id.conditional);
         Button array = findViewById(R.id.Arrays);
         Button func = findViewById(R.id.functions);
         Button comp = findViewById(R.id.compilation);
@@ -48,8 +36,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button exceptions = findViewById(R.id.exceptions);
         Button hash = findViewById(R.id.hash);
 
-        types.setOnClickListener(this);
-        cond.setOnClickListener(this);
         array.setOnClickListener(this);
         func.setOnClickListener(this);
         comp.setOnClickListener(this);
@@ -76,52 +62,57 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.types:
-                Toast.makeText(this, "Types clicked", Toast.LENGTH_LONG).show();
-                Intent type = new Intent(this, typeActivity.class);
-                startActivity(type);
-                break;
-            case R.id.conditional:
-                Toast.makeText(this, "Conditionals clicked", Toast.LENGTH_SHORT).show();
-                break;
             case R.id.Arrays:
-                Toast.makeText(this, "Arrays clicked", Toast.LENGTH_SHORT).show();
+                Intent array = new Intent(this, arrays.class);
+                startActivity(array);
                 break;
             case R.id.functions:
-                Toast.makeText(this, "Functions clicked", Toast.LENGTH_SHORT).show();
+                Intent func = new Intent(this, functions.class);
+                startActivity(func);
                 break;
             case R.id.compilation:
-                Toast.makeText(this, "Compilation clicked", Toast.LENGTH_SHORT).show();
+                Intent comp = new Intent(this, compilation.class);
+                startActivity(comp);
                 break;
             case R.id.objects:
-                Toast.makeText(this, "Objects clicked", Toast.LENGTH_SHORT).show();
+                Intent obj = new Intent(this, introObject.class);
+                startActivity(obj);
                 break;
             case R.id.constructors:
-                Toast.makeText(this, "Constructors clicked", Toast.LENGTH_SHORT).show();
+                Intent constr = new Intent(this, constructors.class);
+                startActivity(constr);
                 break;
             case R.id.getters:
-                Toast.makeText(this, "Getters and Setters clicked", Toast.LENGTH_SHORT).show();
+                Intent gett = new Intent(this, getters.class);
+                startActivity(gett);
                 break;
             case R.id.inheritance:
-                Toast.makeText(this, "Inheritance clicked", Toast.LENGTH_SHORT).show();
+                Intent inher = new Intent(this, inheritence.class);
+                startActivity(inher);
                 break;
             case R.id.polymorphism:
-                Toast.makeText(this, "Polymorphism clicked", Toast.LENGTH_SHORT).show();
+                Intent poly = new Intent(this, polymorphism.class);
+                startActivity(poly);
                 break;
             case R.id.interfaces:
-                Toast.makeText(this, "Interfaces clicked", Toast.LENGTH_SHORT).show();
+                Intent inter = new Intent(this, interfaces.class);
+                startActivity(inter);
                 break;
             case R.id.introalgorithm:
-                Toast.makeText(this, "Intro Algorithms clicked", Toast.LENGTH_SHORT).show();
+                Intent intro = new Intent(this, introAlgorithm.class);
+                startActivity(intro);
                 break;
             case R.id.runtime:
-                Toast.makeText(this, "Algorithm Runtime clicked", Toast.LENGTH_SHORT).show();
+                Intent run = new Intent(this, runtime.class);
+                startActivity(run);
                 break;
             case R.id.lists:
-                Toast.makeText(this, "Lists clicked", Toast.LENGTH_SHORT).show();
+                Intent list = new Intent(this, lists.class);
+                startActivity(list);
                 break;
             case R.id.linked:
-                Toast.makeText(this, "Linked Lists clicked", Toast.LENGTH_SHORT).show();
+                Intent link = new Intent(this, linked.class);
+                startActivity(link);
                 break;
             case R.id.trees:
                 Toast.makeText(this, "Trees clicked", Toast.LENGTH_SHORT).show();

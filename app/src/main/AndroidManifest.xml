@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.cs125finalProject">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".typeActivity"></activity>
+        <activity android:name=".linked"></activity>
+        <activity android:name=".lists" />
+        <activity android:name=".runtime" />
+        <activity android:name=".introAlgorithm" />
+        <activity android:name=".interfaces" />
+        <activity android:name=".polymorphism" />
+        <activity android:name=".inheritence" />
+        <activity android:name=".getters" />
+        <activity android:name=".constructors" />
+        <activity android:name=".introObject" />
+        <activity android:name=".compilation" />
+        <activity android:name=".functions" />
+        <activity android:name=".arrays" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
