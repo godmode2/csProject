@@ -131,8 +131,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(quicks);
                 break;
             case R.id.internet:
-                Intent inter = new Intent(this, internet.class);
-                startActivity(inter);
+                Intent internet = new Intent(this, internet.class);
+                startActivity(internet);
                 break;
             case R.id.web:
                 Intent webs = new Intent(this, webs.class);
