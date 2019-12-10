@@ -11,8 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hashing"></activity>
-        <activity android:name=".typeActivity" />
+        <activity android:name=".arrays" />
+        <activity android:name=".compilation" />
+        <activity android:name=".constructors" />
+        <activity android:name=".exceptions" />
+        <activity android:name=".functions" />
+        <activity android:name=".getters" />
+        <activity android:name=".hashing" />
+        <activity android:name=".inheritence" />
+        <activity android:name=".insertion" />
+        <activity android:name=".interfaces" />
+        <activity android:name=".internet" />
+        <activity android:name=".introAlgorithm" />
+        <activity android:name=".introObject" />
+        <activity android:name=".linked" />
+        <activity android:name=".lists" />
+        <activity android:name=".mergesort" />
+        <activity android:name=".polymorphism" />
+        <activity android:name=".quicksort" />
+        <activity android:name=".runtime" />
+        <activity android:name=".trees" />
+        <activity android:name=".webs" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
