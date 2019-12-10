@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".internet">
 
-    <view
+    <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youtube"
         class="com.google.android.youtube.player.YouTubePlayerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="96dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="200dp" />
+        tools:layout_editor_absoluteX="200dp"></com.google.android.youtube.player.YouTubePlayerView>
 
     <Button
         android:id="@+id/videoButton"
