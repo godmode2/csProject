@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.cs125finalProject">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -11,15 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".trees"></activity>
-        <activity android:name=".insertion" />
-        <activity android:name=".mergesort" />
-        <activity android:name=".quicksort" />
-        <activity android:name=".internet" />
-        <activity android:name=".webs" />
-        <activity android:name=".exceptions" />
-        <activity android:name=".Hashing" />
-        <activity android:name=".typeActivity" />
+        <activity android:name=".typeActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
