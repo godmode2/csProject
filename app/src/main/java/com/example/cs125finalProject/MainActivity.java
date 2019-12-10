@@ -1,11 +1,16 @@
 package com.example.cs125finalProject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.youtube.player.YouTubeBaseActivity;
+import com.google.android.youtube.player.YouTubeInitializationResult;
+import com.google.android.youtube.player.YouTubePlayer;
+import com.google.android.youtube.player.YouTubePlayerView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -73,6 +78,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.types:
                 Toast.makeText(this, "Types clicked", Toast.LENGTH_LONG).show();
+                Intent type = new Intent(this, typeActivity.class);
+                startActivity(type);
                 break;
             case R.id.conditional:
                 Toast.makeText(this, "Conditionals clicked", Toast.LENGTH_SHORT).show();
