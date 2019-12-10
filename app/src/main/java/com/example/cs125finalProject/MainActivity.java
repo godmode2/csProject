@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         exceptions.setOnClickListener(this);
         hash.setOnClickListener(this);
     }
-
+    // when a button is clicked, a message shows which button was clicked.
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
